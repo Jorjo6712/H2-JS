@@ -4,9 +4,6 @@ let bmiGroup = document.getElementById("bmi-group");
 const calculateBmi = () => {
     let heightInput = document.getElementById("height").value;
     let weightInput = document.getElementById("weight").value;
-    
-    console.log(heightInput);
-    console.log(weightInput);
 
     heightInput /= 100;
 
